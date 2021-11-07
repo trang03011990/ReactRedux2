@@ -1,0 +1,24 @@
+img{
+    width: 150px;
+}
+.model{
+    width: 250px;
+    /* position: absolute; */
+}
+.glass{
+    width: 150px; top: 75px; right: 210px; opacity: 0.7;
+    position: absolute;
+}
+.item{
+    cursor: pointer;
+    width: 110px;
+    object-fit: contain;
+}
+.bg1{
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    left:0;
+    z-index: -1;
+}
